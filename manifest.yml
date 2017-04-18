@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: aihackathon
+  host: aihackathon
+  disk_quota: 1024M
+  services:
+  - aihackathon-cloudantNoSQLDB
+  env:
+    redacted_message: '[PRIVATE DATA HIDDEN]'
